@@ -1,0 +1,304 @@
+:root {
+    --black:#000000;
+    --offblack:#161616;
+    --darkest-gray:#36383F;
+    --dark-gray:#7B7E8B;
+    --light-gray:#B3B3B3;
+    --white:#ffffff;
+    --green:#4BCE79;
+    --blue:#78DAF6;
+    --yellow:#F4E187;
+    font-size: 16px;
+  }
+
+
+/*GENERAL STYLES*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    color:var(--white);
+    background-color:var(--offblack);
+}
+
+button{
+    border-radius: 4px;
+    border:transparent;
+    font-weight: 700;
+    padding: 1rem 2rem;
+    margin-right:1rem;
+    transition: all .1 ease-in-out;
+}
+button:active {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+ul {
+    list-style: none;
+}
+
+
+a{
+    text-decoration: none;
+    transition:all 0.1s ease-in-out;
+}
+
+a, a:visited {
+    color: inherit;
+}
+
+/*HEADER STYLES*/
+
+header{
+    background: var(--black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*NAV STYLES*/
+
+header > .logo-links-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    margin: 1rem 0;
+}
+
+header > .logo-links-wrapper .logo{
+    margin:0 4rem 0 1rem;
+}
+
+header > .logo-links-wrapper > .nav-links-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+header > .logo-links-wrapper > .nav-links-wrapper > .nav-links-heading{
+    color: var(--yellow);
+    text-transform: uppercase;
+}
+
+header > .logo-links-wrapper > .nav-links-wrapper > .nav-links{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+header > .logo-links-wrapper > .nav-links-wrapper > .nav-links > .nav-link a:hover{
+    opacity: .5;
+}
+
+header > .logo-links-wrapper > .nav-links-wrapper > .nav-links > .nav-link{
+    margin-right: 1rem;
+    font-weight: 900;
+}
+
+        /*dropdown*/
+header > .logo-links-wrapper > .nav-links-wrapper > .nav-links > .dropdown{
+    color: var(--light-gray);
+    font-weight: 700;
+    margin-left:1.5rem;
+    font-size: 1.2rem;
+    position:relative;
+}
+
+header > .logo-links-wrapper > .nav-links-wrapper > .nav-links > .dropdown > .dropdown-link::after{
+    font-family: "Font Awesome 5 Free";
+    content:"\f078";
+    font-size: 1rem;
+    margin-left: 0.5rem; 
+}
+
+.dropdown-content{
+    display:none;
+    position:absolute;
+    top: 100%; 
+}
+
+.dropdown-content > li{
+    margin: 1rem;
+    font-size:1rem ;
+}
+
+.dropdown:hover > .dropdown-content{
+    display:block;
+    background-color:var(--black);
+    color: var(--dark-gray);
+    box-shadow: 0px 10px 16px 0px rgba(0,0,0,0.6);
+}
+
+    /*HEADER BUTTONS STYLES*/
+
+header > .nav-btns-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:.5rem 0;
+}
+
+header > .nav-btns-wrapper button{
+    color: var(--white);
+    background-color: var(--darkest-gray);
+    font-size: 1.2rem;;
+}
+
+header > .nav-btns-wrapper > button:hover {
+    background: var(--dark-gray);
+}
+
+header > .nav-btns-wrapper > .create-btn i {
+    color: var(--green);
+    margin-left: 5px;
+}
+
+header > .nav-btns-wrapper > .search-btn{
+    background-color: transparent;
+    padding:0.5rem; 
+}
+
+header > .nav-btns-wrapper > .search-btn:hover {
+    background: transparent;
+}
+
+header > .nav-btns-wrapper > .search-btn i{
+    color: var(--dark-gray);
+    font-size: 2rem;
+}
+
+header > .nav-btns-wrapper > .search-btn i:hover {
+    color: var(--light-gray);
+}
+
+
+
+
+
+
+/*MAIN CONTAINER STYLES*/
+
+main{
+    display: flex;
+    justify-content: space-between;
+    background:  #42464F;
+    background: -moz-radial-gradient(26% 0%, circle cover, #42464F 0, #000000 100%);/* FF3.6+ */
+    background: -webkit-radial-gradient(26% 0%, circle cover, #42464F 0, #000000 100%);/* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(26% 0%, circle cover, #42464F 0, #000000 100%);/* Opera 11.10+ */
+    background: -ms-radial-gradient(26% 0%, circle cover, #42464F 0, #000000 100%);/* IE10+ */
+    background: radial-gradient(26% 0%, circle cover, #42464F 0, #000000 100%);/* W3C */
+}
+
+main > .container{
+    margin:3rem  0 0 3rem;
+}
+
+    /*TEXT CONTAINER (LEFT SIDE) STYLES*/
+
+main > .text-container p{
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin:1rem 2rem 1rem 0;
+}
+
+main > .text-container p b{
+    font-weight: 700;
+    
+}
+
+main > .text-container p:nth-child(2){
+    opacity: .7;
+    font-size: 2rem; 
+    line-height: 3rem;
+    
+}
+    /*MAIN BUTTONS STYLES*/
+
+main > .text-container > .sing-up-free-btn , .learn-more-btn{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+main > .text-container > .sing-up-free-btn{
+    background-color: var(--green);
+    color: var(--black);
+}
+main > .text-container > .sing-up-free-btn:hover{
+    filter: brightness(70%);
+}
+
+main > .text-container > .learn-more-btn{
+    background-color: var(--black);
+    color: var(--white);
+}
+
+main > .text-container > .learn-more-btn:hover{
+    background-color: var(--darkest-gray);
+}
+
+    /*IMAGE CONTAINER (RIGHT SIDE) STYLES*/
+
+main > .image-container{
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+}
+
+main > .image-container h4{
+    font-size: 1.1rem;
+    margin:0 0 .5rem 1rem;
+}
+
+main > .image-container h4 span{
+    color: var(--blue);
+}
+
+main > .image-container > img{
+    height:450px;
+    box-shadow: 0 15px 30px 5px var(--black);
+    }
+
+/*FOOTER*/
+footer{
+    z-index: 3;
+    height:3rem;
+}
+
+#footer-links{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+
+#footer-links> .footer-link{
+    background-color: var(--darkest-gray);
+    border: 1px solid var(--light-gray);
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+#footer-links > .footer-link a{
+    font-family: 'telefontrial-black', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+#footer-links > .footer-link a:hover{
+    color: var(--yellow);
+}
+
+/* 
+clean code
+hover styles 
+dropdown 1
+dropdown 2
+media queries
+clean code
+*/
