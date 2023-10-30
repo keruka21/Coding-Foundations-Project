@@ -12,7 +12,7 @@
   }
 
 
-/*GENERAL STYLES*/
+/*GENERAL STYLES*/------------------------------------------
 *{
     margin:0;
     padding:0;
@@ -51,7 +51,7 @@ a, a:visited {
     color: inherit;
 }
 
-/*HEADER STYLES*/
+/*HEADER STYLES*/------------------------------------------
 
 header{
     background: var(--black);
@@ -177,11 +177,7 @@ header > .nav-btns-wrapper > .search-btn i:hover {
 }
 
 
-
-
-
-
-/*MAIN CONTAINER STYLES*/
+/*MAIN CONTAINER STYLES*/------------------------------------------
 
 main{
     display: flex;
@@ -263,7 +259,7 @@ main > .image-container > img{
     box-shadow: 0 15px 30px 5px var(--black);
     }
 
-/*FOOTER*/
+/*FOOTER*/------------------------------------------
 footer{
     z-index: 3;
     height:3rem;
@@ -293,12 +289,3 @@ footer{
 #footer-links > .footer-link a:hover{
     color: var(--yellow);
 }
-
-/* 
-clean code
-hover styles 
-dropdown 1
-dropdown 2
-media queries
-clean code
-*/
