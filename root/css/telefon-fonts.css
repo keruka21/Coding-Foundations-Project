@@ -12,20 +12,6 @@
 }
 
 
-
-
-@font-face {
-    font-family: 'telefontrial-blackitalic';
-    src: url('../fonts/telefontrial-blackitalic-webfont.woff2') format('woff2'),
-         url('../fonts/telefontrial-blackitalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-
-}
-
-
-
-
 @font-face {
     font-family: 'telefontrial-blond';
     src: url('../fonts/-blond-webfont.woff2') format('woff2'),
@@ -34,20 +20,6 @@
     font-style: normal;
 
 }
-
-
-
-
-@font-face {
-    font-family: 'telefontrial-blonditalic';
-    src: url('../fonts/telefontrial-blonditalic-webfont.woff2') format('woff2'),
-         url('../fonts/telefontrial-blonditalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-
-}
-
-
 
 
 @font-face {
@@ -60,44 +32,6 @@
 }
 
 
-
-
-@font-face {
-    font-family: 'telefontrial-bolditalic';
-    src: url('../fonts/telefontrial-bolditalic-webfont.woff2') format('woff2'),
-         url('../fonts/telefontrial-bolditalic-webfont.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'telefontrial-light';
-    src: url('../fonts/telefontrial-light-webfont.woff2') format('woff2'),
-         url('../fonts/telefontrial-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'telefontrial-lightitalic';
-    src: url('../fonts/telefontrial-lightitalic-webfont.woff2') format('woff2'),
-         url('../fonts/telefontrial-lightitalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-
-}
-
-
-
-
 @font-face {
     font-family: 'telefontrial-medium';
     src: url('../fonts/telefontrial-medium-webfont.woff2') format('woff2'),
@@ -108,37 +42,3 @@
 }
 
 
-
-
-@font-face {
-    font-family: 'telefontrial-mediumitalic';
-    src: url('../fonts/telefontrial-mediumitalic-webfont.woff2') format('woff2'),
-         url('../fonts/telefontrial-mediumitalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'telefontrial-regular';
-    src: url('../fonts/telefontrial-normal-webfont.woff2') format('woff2'),
-         url('../fonts/telefontrial-normal-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'telefontrial-regularitalic';
-    src: url('../fonts/telefontrial-normalitalic-webfont.woff2') format('woff2'),
-         url('../fonts/telefontrial-normalitalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-
-}
