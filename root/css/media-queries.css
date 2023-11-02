@@ -1,4 +1,7 @@
 @media screen and (min-width: 320px) and (max-width: 480px){ 
+    body{
+        background:var(--offblack);
+    }
     
     header{
         height: 100%;
@@ -49,6 +52,7 @@
     header > .nav-btns-wrapper button{
         font-size: 0.9rem;
         padding:1rem;
+        margin: .5rem;
     }
     
     header > .nav-btns-wrapper > .search-btn{
@@ -80,13 +84,13 @@
         flex-direction: column;
     }
     
-    main > .text-container p{
+    main > .text-container h1{
         font-size: 1.6rem;
         margin:1rem auto;
     }
     
     
-    main > .text-container p:nth-child(2){
+    main > .text-container p{
         font-size: 1.3rem; 
         line-height: 1.5rem;
         margin-bottom: 1.5rem;
@@ -132,7 +136,5 @@
     #footer-links > .footer-link a{
         font-size: 1.5rem;
     }
-
-    
 
 }
