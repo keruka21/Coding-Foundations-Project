@@ -12,7 +12,7 @@
   }
 
 
-/*GENERAL STYLES------------------------------------------*/
+/*GENERAL STYLES*/
 *{
     margin:0;
     padding:0;
@@ -22,7 +22,7 @@
 body{
     font-family: 'Lato', sans-serif;
     color:var(--white);
-    background-color:var(--offblack);
+    background-color: var(--offblack);
 }
 
 button{
@@ -51,7 +51,7 @@ a, a:visited {
     color: inherit;
 }
 
-/*HEADER STYLES------------------------------------------*/
+/*HEADER STYLES*/
 
 header{
     background: var(--black);
@@ -177,7 +177,11 @@ header > .nav-btns-wrapper > .search-btn i:hover {
 }
 
 
-/*MAIN CONTAINER STYLES------------------------------------------*/
+
+
+
+
+/*MAIN CONTAINER STYLES*/
 
 main{
     display: flex;
@@ -187,7 +191,8 @@ main{
     background: -webkit-radial-gradient(26% 0%, circle cover, #42464F 0, #000000 100%);/* Chrome10+,Safari5.1+ */
     background: -o-radial-gradient(26% 0%, circle cover, #42464F 0, #000000 100%);/* Opera 11.10+ */
     background: -ms-radial-gradient(26% 0%, circle cover, #42464F 0, #000000 100%);/* IE10+ */
-    background: radial-gradient(26% 0%, circle cover, #42464F 0, #000000 100%);/* W3C */
+    background: radial-gradient(26% 0%, circle cover, #42464F 0, #000000 100%);/* W3C */;
+    
 }
 
 main > .container{
@@ -196,18 +201,18 @@ main > .container{
 
     /*TEXT CONTAINER (LEFT SIDE) STYLES*/
 
-main > .text-container p{
+main > .text-container h1{
     font-size: 2.5rem;
     font-weight: 300;
     margin:1rem 2rem 1rem 0;
 }
 
-main > .text-container p b{
+main > .text-container h1 b{
     font-weight: 700;
     
 }
 
-main > .text-container p:nth-child(2){
+main > .text-container p{
     opacity: .7;
     font-size: 2rem; 
     line-height: 3rem;
@@ -259,7 +264,7 @@ main > .image-container > img{
     box-shadow: 0 15px 30px 5px var(--black);
     }
 
-/*FOOTER------------------------------------------*/
+/*FOOTER*/
 footer{
     z-index: 3;
     height:3rem;
