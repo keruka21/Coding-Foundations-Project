@@ -288,6 +288,7 @@ footer{
 #footer-links > .footer-link a{
     text-transform: uppercase;
     font-size: 1.5rem;
+    font-weight:900;
 }
 
 #footer-links > .footer-link a:hover{
